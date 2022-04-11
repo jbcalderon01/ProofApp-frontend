@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: PFont-Regular, sans-serif;
+    overflow: hidden;
+}
+
+code {
+    font-family: PFont-Regular, source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+
+@font-face {
+    font-family: PFont-Bold;
+    src: url('/fonts/Roboto/Roboto-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: PFont-Medium;
+    src: url('/fonts/Roboto/Roboto-Medium.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: PFont-Regular;
+    src: url('/fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: PFont-Light;
+    src: url('/fonts/Roboto/Roboto-Light.ttf');
+    font-weight: 300;
+}
+
+/* Table Style */
+
+.rc-table-thead {
+    background-color: #f3f2f7;
+    color: #6e6b7b;
+    font-size: 14px;
+}
+
+.rc-table-cell {
+    padding: 0.72rem;
+    color: #6e6b7b;
+}
+
+.rc-table-cell-row-hover {
+    background-color: #f3f2f7;
+}
+
+.rc-table-content {
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+}
+
+table {
+    width: 100%
+}
